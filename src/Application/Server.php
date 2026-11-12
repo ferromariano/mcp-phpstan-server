@@ -98,7 +98,7 @@ final class Server
 
                     $this->reply($id, [
                         'tools' => $tools,
-                        'nextCursor' => null,
+                        //'nextCursor' => null,
                     ]);
 
                     break;
